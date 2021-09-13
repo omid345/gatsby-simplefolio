@@ -24,7 +24,7 @@ export const aboutData = {
     'I like trying new languages, frameworks and any technology that I come across.',
   paragraphThree:
     "In the future I'd like to travel to Afghanistan and teach programming using my native tongue Farsi/Dari.",
-  resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
+  resume: 'OmidRajabiResume', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
@@ -80,7 +80,7 @@ export const projectsData = [
 export const contactData = {
   cta: 'Would you like to work with me? Awesome!',
   btn: 'Email me',
-  email: 'omid.rajabi@mail.utoronto.ca',
+  email: 'omid.345@gmail.ca',
 };
 
 // FOOTER DATA
@@ -89,7 +89,12 @@ export const footerData = {
     {
       id: nanoid(),
       name: 'twitter',
-      url: 'https://twitter.com/Omid_janam',
+      url: 'https://www.twitter.com/Omid_janam',
+    },
+    {
+      id: nanoid(),
+      name: 'instagram',
+      url: 'https://www.instagram.com/omid.janam/',
     },
     {
       id: nanoid(),
@@ -99,7 +104,7 @@ export const footerData = {
     {
       id: nanoid(),
       name: 'github',
-      url: 'https://github.com/omid345',
+      url: 'https://www.github.com/omid345',
     },
   ],
 };
